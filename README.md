@@ -135,5 +135,119 @@ Opera entre 500 K y 300 K:
 \eta = 1 - \frac{T_c}{T_h} = 1 - \frac{300}{500} = 0.40 = 40\%
 \]
 
+# Primera Ley de la Termodinámica
+
+La Primera Ley establece que:
+
+> **La energía no se crea ni se destruye, solo se transforma.**
+
+## 🧠 Fórmula fundamental
+
+\[
+\Delta U = Q - W
+\]
+
+Donde:  
+- \( \Delta U \) = cambio en energía interna  
+- \( Q \) = calor recibido por el sistema  
+- \( W \) = trabajo realizado por el sistema  
+
+## 🔍 Interpretación física
+Si un sistema recibe más calor del que trabajo realiza, su energía interna aumenta.
+
+## 🔥 Procesos importantes
+
+### ✔ Proceso isocórico (volumen constante)
+El trabajo es nulo → \( W = 0 \)
+
+### ✔ Proceso isotérmico (temperatura constante)
+La energía interna no cambia → \( \Delta U = 0 \)
+
+### ✔ Proceso adiabático
+No entra ni sale calor → \( Q = 0 \)
+
+---
+
+## 📘 Ejemplo
+Un gas recibe 500 J de calor y realiza 200 J de trabajo.
+
+\[
+\Delta U = 500 - 200 = 300\ J
+\]
+
+El sistema aumenta su energía interna 300 J.
+# Segunda Ley de la Termodinámica
+
+La Segunda Ley determina la dirección natural de los procesos e introduce el concepto de **entropía**.
+
+## 🔥 Enunciados principales
+
+### ✔ Enunciado de Clausius
+“El calor no fluye espontáneamente de un cuerpo frío a uno caliente.”
+
+### ✔ Enunciado de Kelvin-Planck
+“No existe máquina térmica capaz de convertir todo el calor en trabajo.”
+
+---
+
+## 🧠 Entropía
+
+\[
+\Delta S = \frac{Q}{T}
+\]
+
+La entropía mide el nivel de desorden o irreversibilidad de un proceso.
+
+---
+
+## ⚙️ Máquinas térmicas
+
+Una máquina térmica trabaja entre dos focos térmicos:
+
+- \(T_h\): foco caliente  
+- \(T_c\): foco frío  
+
+La eficiencia está dada por:
+
+\[
+\eta = \frac{W}{Q_{in}}
+\]
+
+### 🔸 Motor de Carnot
+La máxima eficiencia teórica:
+
+\[
+\eta = 1 - \frac{T_c}{T_h}
+\]
+# Ejercicios y aplicaciones
+
+## 🟦 Ejercicio 1 — Primera Ley
+Un sistema recibe 800 J de calor y su energía interna aumenta 300 J.
+
+\[
+W = Q - \Delta U = 800 - 300 = 500\ J
+\]
+
+El trabajo realizado por el sistema es **500 J**.
+
+---
+
+## 🟩 Ejercicio 2 — Entropía
+Se transfieren 200 J de calor a un sistema a 400 K:
+
+\[
+\Delta S = \frac{200}{400} = 0.5\ J/K
+\]
+
+---
+
+## 🟥 Ejercicio 3 — Eficiencia de Carnot
+Una máquina opera entre 500 K y 300 K:
+
+\[
+\eta = 1 - \frac{300}{500} = 0.40 \text{ = 40%}
+\]
+
+La máxima eficiencia posible es **40%**.
 
 
