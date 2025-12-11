@@ -96,6 +96,37 @@ Se transfieren 200 J de calor a un sistema a 400 K:
 \[
 \Delta S = \frac{Q}{T} = \frac{200}{400} = 0.5\ J/K
 \]
+# Proyecto: Primera y Segunda Ley de la Termodinámica
+
+Este repositorio contiene una explicación clara y organizada de las leyes fundamentales de la termodinámica, acompañada de ejemplos, fórmulas y diagramas.
+
+## 📚 Contenido del proyecto
+
+### 🔸 Leyes de la Termodinámica
+- [Primera Ley de la Termodinámica](leyes/primera_ley.md)
+- [Segunda Ley de la Termodinámica](leyes/segunda_ley.md)
+
+### 🔸 Ejemplos y ejercicios
+- [Ejercicios resueltos](ejemplos/ejercicios.md)
+
+### 🔸 Imágenes y diagramas
+Dentro de la carpeta [`imagenes`](imagenes/) puedes encontrar representaciones visuales del contenido.
+
+---
+
+## 🎯 Objetivo
+Este repositorio fue creado como proyecto académico para comprender:
+
+- Conservación de energía  
+- Transferencia de calor y trabajo  
+- Entropía  
+- Irreversibilidad  
+- Máquinas térmicas y eficiencia  
+
+---
+
+## 🛠️ Tecnologías usadas
+Este proyecto está desarrollado en **Markdown**, usando GitHub como herramienta de organización y documentación.
 
 ## 3. Máquina térmica ideal (Carnot)
 Opera entre 500 K y 300 K:
