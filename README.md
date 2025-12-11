@@ -1,5 +1,3 @@
-# termodin-mica-
-Historia de la termodinámica, leyes y ejemplos.
 # Proyecto: Primera y Segunda Ley de la Termodinámica
 
 Este repositorio contiene una explicación completa, organizada y entendible de las dos leyes fundamentales de la termodinámica.
@@ -52,202 +50,120 @@ Un gas recibe 500 J de calor y realiza 200 J de trabajo.
 El gas aumenta su energía interna en 300 J.
 # Segunda Ley de la Termodinámica
 
-La Segunda Ley introduce el concepto de **entropía** y establece la dirección natural de los procesos.
+La Segunda Ley introduce el concepto de **entropía** y establece la dirección natural de los procesos, en esta , diversos autores han hecho aportes a la intepretacion de esta ley, las cuales permitireon llegar hasta la intepretacion actual.
 
-## Enunciados principales
+Definiciones de Entropía según diferentes autores
 
-### ✔ Enunciado de Clausius
-“El calor no puede fluir espontáneamente de un cuerpo frío a uno caliente.”
+1. Rudolf Clausius (1850–1865)
 
-### ✔ Enunciado de Kelvin-Planck
-“Es imposible construir una máquina térmica que convierta todo el calor recibido en trabajo.”
+Fundador del concepto de entropía.
 
-## Entropía
+La entropía es una magnitud del estado que mide la cantidad de energía de un sistema que no puede convertirse en trabajo mecánico.
+Matemáticamente la definió como:
 
-\[
-\Delta S = \frac{Q}{T}
-\]
+𝑑𝑆=𝛿𝑄rev/𝑇
+	​
 
-La entropía mide:
-- el desorden,
-- la irreversibilidad,
-- la dispersión de la energía.
+	​
 
-## Máquinas térmicas
-Una máquina térmica opera entre dos focos de temperatura:
 
-\[
-\eta = \frac{W}{Q_{in}}
-\]
+Clausius también formuló la expresión:
 
-La eficiencia nunca puede ser 100%, por la Segunda Ley.
-# Ejemplos y aplicaciones
+La entropía del universo tiende a un máximo.
 
-## 1. Primera Ley
-Un pistón recibe 800 J de calor y su energía interna aumenta 300 J.
+2. Ludwig Boltzmann (1877)
 
-\[
-W = Q - \Delta U = 800 - 300 = 500\ J
-\]
+Interpretación estadística.
 
-## 2. Segunda Ley — Entropía
-Se transfieren 200 J de calor a un sistema a 400 K:
+La entropía es una medida del número de microestados posibles de un sistema.
 
-\[
-\Delta S = \frac{Q}{T} = \frac{200}{400} = 0.5\ J/K
-\]
-# Proyecto: Primera y Segunda Ley de la Termodinámica
+𝑆
+=
+𝑘
+ln
+⁡
+Ω
+S=klnΩ
 
-Este repositorio contiene una explicación clara y organizada de las leyes fundamentales de la termodinámica, acompañada de ejemplos, fórmulas y diagramas.
+Donde 
+Ω
+Ω es el número de microestados compatibles con el macroestado.
 
-## 📚 Contenido del proyecto
+Interpretación clave:
 
-### 🔸 Leyes de la Termodinámica
-- [Primera Ley de la Termodinámica](leyes/primera_ley.md)
-- [Segunda Ley de la Termodinámica](leyes/segunda_ley.md)
+Entropía = desorden molecular / multiplicidad.
 
-### 🔸 Ejemplos y ejercicios
-- [Ejercicios resueltos](ejemplos/ejercicios.md)
+3. J. Willard Gibbs (1902)
 
-### 🔸 Imágenes y diagramas
-Dentro de la carpeta [`imagenes`](imagenes/) puedes encontrar representaciones visuales del contenido.
+Generalización estadística y termodinámica.
 
----
+La entropía mide la dispersión de la energía entre los microestados accesibles del sistema.
 
-## 🎯 Objetivo
-Este repositorio fue creado como proyecto académico para comprender:
+𝑆
+=
+−
+𝑘
+∑
+𝑖
+𝑝
+𝑖
+ln
+⁡
+𝑝
+𝑖
+S=−k
+i
+∑
+	​
 
-- Conservación de energía  
-- Transferencia de calor y trabajo  
-- Entropía  
-- Irreversibilidad  
-- Máquinas térmicas y eficiencia  
+p
+i
+	​
 
----
+lnp
+i
+	​
 
-## 🛠️ Tecnologías usadas
-Este proyecto está desarrollado en **Markdown**, usando GitHub como herramienta de organización y documentación.
 
-## 3. Máquina térmica ideal (Carnot)
-Opera entre 500 K y 300 K:
+(Pilar de la mecánica estadística moderna.)
 
-\[
-\eta = 1 - \frac{T_c}{T_h} = 1 - \frac{300}{500} = 0.40 = 40\%
-\]
+4. Max Planck (1900–1910)
 
-# Primera Ley de la Termodinámica
+La entropía es una función que determina la dirección natural de los procesos físicos y cuya variación caracteriza la irreversibilidad.
 
-La Primera Ley establece que:
+Planck reforzó la idea de que la entropía siempre aumenta en procesos reales.
 
-> **La energía no se crea ni se destruye, solo se transforma.**
+5. Peter Atkins (Química Física, 2014)
 
-## 🧠 Fórmula fundamental
+La entropía es una medida de la dispersión de la energía y de la extensión en que está difundida en un sistema.
 
-\[
-\Delta U = Q - W
-\]
+Atkins reemplaza el clásico concepto de “desorden” por dispersión de energía.
 
-Donde:  
-- \( \Delta U \) = cambio en energía interna  
-- \( Q \) = calor recibido por el sistema  
-- \( W \) = trabajo realizado por el sistema  
+6. P. W. Bridgman (1961)
 
-## 🔍 Interpretación física
-Si un sistema recibe más calor del que trabajo realiza, su energía interna aumenta.
+La entropía es una medida de la irreversibilidad de un proceso y del desgaste energético que hace imposible recuperar completamente la energía en forma de trabajo.
 
-## 🔥 Procesos importantes
+7. Herbert Callen (1985)
 
-### ✔ Proceso isocórico (volumen constante)
-El trabajo es nulo → \( W = 0 \)
+La entropía es la función que ordena la estructura de equilibrio de los sistemas físicos y determina la dirección de los procesos espontáneos.
 
-### ✔ Proceso isotérmico (temperatura constante)
-La energía interna no cambia → \( \Delta U = 0 \)
+Define la entropía como la función fundamental del equilibrio.
 
-### ✔ Proceso adiabático
-No entra ni sale calor → \( Q = 0 \)
+8. Smith, Van Ness y Abbott (Termodinámica Química, 2005)
 
----
+La entropía es una propiedad asociada al grado de dispersión de la energía y al número de formas en que un sistema puede organizarse al nivel molecular.
 
-## 📘 Ejemplo
-Un gas recibe 500 J de calor y realiza 200 J de trabajo.
+9. Çengel y Boles (Termodinámica de Ingeniería, 2015)
 
-\[
-\Delta U = 500 - 200 = 300\ J
-\]
+La entropía es una medida cuantitativa del desorden molecular o aleatoriedad, y del grado de irreversibilidad asociado a un proceso.
 
-El sistema aumenta su energía interna 300 J.
-# Segunda Ley de la Termodinámica
+10. Ilya Prigogine (Premio Nobel, 1977)
 
-La Segunda Ley determina la dirección natural de los procesos e introduce el concepto de **entropía**.
+La entropía es la magnitud que describe la evolución de los sistemas alejados del equilibrio y su tendencia natural a producir irreversibilidades internas.
 
-## 🔥 Enunciados principales
+11. Clausius + Interpretación moderna (resumen unificado)
 
-### ✔ Enunciado de Clausius
-“El calor no fluye espontáneamente de un cuerpo frío a uno caliente.”
+La entropía mide la parte de la energía que ya no puede transformarse en trabajo útil y también mide el grado de desorden o dispersión de la energía en un sistema.
 
-### ✔ Enunciado de Kelvin-Planck
-“No existe máquina térmica capaz de convertir todo el calor en trabajo.”
-
----
-
-## 🧠 Entropía
-
-\[
-\Delta S = \frac{Q}{T}
-\]
-
-La entropía mide el nivel de desorden o irreversibilidad de un proceso.
-
----
-
-## ⚙️ Máquinas térmicas
-
-Una máquina térmica trabaja entre dos focos térmicos:
-
-- \(T_h\): foco caliente  
-- \(T_c\): foco frío  
-
-La eficiencia está dada por:
-
-\[
-\eta = \frac{W}{Q_{in}}
-\]
-
-### 🔸 Motor de Carnot
-La máxima eficiencia teórica:
-
-\[
-\eta = 1 - \frac{T_c}{T_h}
-\]
-# Ejercicios y aplicaciones
-
-## 🟦 Ejercicio 1 — Primera Ley
-Un sistema recibe 800 J de calor y su energía interna aumenta 300 J.
-
-\[
-W = Q - \Delta U = 800 - 300 = 500\ J
-\]
-
-El trabajo realizado por el sistema es **500 J**.
-
----
-
-## 🟩 Ejercicio 2 — Entropía
-Se transfieren 200 J de calor a un sistema a 400 K:
-
-\[
-\Delta S = \frac{200}{400} = 0.5\ J/K
-\]
-
----
-
-## 🟥 Ejercicio 3 — Eficiencia de Carnot
-Una máquina opera entre 500 K y 300 K:
-
-\[
-\eta = 1 - \frac{300}{500} = 0.40 \text{ = 40%}
-\]
-
-La máxima eficiencia posible es **40%**.
 
 
