@@ -21,149 +21,131 @@ La Primera Ley establece que:
 
 > **La energía no se crea ni se destruye, solo se transforma.**
 
-En términos matemáticos:
 
-\[
-\Delta U = Q - W
-\]
-
-Donde:
-- \( \Delta U \) = cambio en la energía interna del sistema  
-- \( Q \) = calor que entra al sistema  
-- \( W \) = trabajo realizado por el sistema  
-
-## Interpretación física
-Si un sistema recibe más calor del que trabajo realiza, su energía interna aumenta.
-
-## Procesos comunes
-- Proceso isocórico (volumen constante)  
-- Proceso isobárico (presión constante)  
-- Proceso isotérmico (temperatura constante)
-
-## Ejemplo básico
-Un gas recibe 500 J de calor y realiza 200 J de trabajo.
-
-\[
-\Delta U = 500 - 200 = 300\ J
-\]
-
-El gas aumenta su energía interna en 300 J.
 # Segunda Ley de la Termodinámica
 
 La Segunda Ley introduce el concepto de **entropía** y establece la dirección natural de los procesos, en esta , diversos autores han hecho aportes a la intepretacion de esta ley, las cuales permitireon llegar hasta la intepretacion actual.
 
-Definiciones de Entropía según diferentes autores
+# Definiciones de Entropía según diferentes autores
 
-1. Rudolf Clausius (1850–1865)
+La entropía es uno de los conceptos más importantes y complejos de la termodinámica. A lo largo de la historia, diferentes autores la han definido según el enfoque teórico utilizado: termodinámico clásico, estadístico, físico-químico o ingenieril. A continuación se presentan las principales definiciones, ampliadas y ordenadas cronológicamente.
 
-Fundador del concepto de entropía.
+---
 
-La entropía es una magnitud del estado que mide la cantidad de energía de un sistema que no puede convertirse en trabajo mecánico.
-Matemáticamente la definió como:
+## 1. Rudolf Clausius (1850–1865)
+**Padre del concepto de entropía.**  
+Clausius introdujo el término entropía y la relacionó con la energía térmica no disponible para realizar trabajo.
 
-𝑑𝑆=𝛿𝑄rev/𝑇
-	​
+**Definición:**
+> "La entropía es una magnitud del estado que describe la parte de la energía que no puede transformarse en trabajo mecánico".
 
-	​
+Además, estableció la famosa relación:
 
+                                                        𝑑𝑆=𝛿𝑄rev/𝑇
 
 Clausius también formuló la expresión:
+> *"La entropía del universo tiende a un máximo."*
 
-La entropía del universo tiende a un máximo.
+Esta fue la primera articulación clara de la irreversibilidad de los procesos naturales.
 
-2. Ludwig Boltzmann (1877)
+---
 
-Interpretación estadística.
+## 2. Ludwig Boltzmann (1877)
+Boltzmann dio a la entropía una interpretación estadística profunda.
 
-La entropía es una medida del número de microestados posibles de un sistema.
+**Definición:**
+> "La entropía es una medida del número de microestados accesibles por un sistema".
 
-𝑆
-=
-𝑘
-ln
-⁡
-Ω
-S=klnΩ
+                                                      𝑆=𝑘ln⁡Ω
 
-Donde 
-Ω
-Ω es el número de microestados compatibles con el macroestado.
+Donde:
+- \( \Omega \) es el número de microestados compatibles con un macroestado,
+- \( k \) es la constante de Boltzmann.
 
-Interpretación clave:
+**Aporte clave:**  
+Introduce la idea de que la entropía está relacionada con el **desorden molecular**, dando una base microscópica a la termodinámica.
 
-Entropía = desorden molecular / multiplicidad.
+---
 
-3. J. Willard Gibbs (1902)
+## 3. J. Willard Gibbs (1902)
+Gibbs extendió y generalizó la definición estadística de la entropía.
 
-Generalización estadística y termodinámica.
+**Definición:**
+> "La entropía es una función que depende de la probabilidad de los microestados y mide la distribución de energía en un sistema".
 
-La entropía mide la dispersión de la energía entre los microestados accesibles del sistema.
+                                                       𝑆=−𝑘∑𝑝𝑖ln𝑝𝑖
+													   
+Es fundamental para describir sistemas con microestados no equiprobables.
 
-𝑆
-=
-−
-𝑘
-∑
-𝑖
-𝑝
-𝑖
-ln
-⁡
-𝑝
-𝑖
-S=−k
-i
-∑
-	​
+---
 
-p
-i
-	​
+## 4. Max Planck (1900–1917)
+Planck utilizó la entropía como fundamento para su formulación de la teoría cuántica.
 
-lnp
-i
-	​
+**Definición:**
+> "La entropía es una función que determina la dirección natural de los procesos y cuya variación describe la irreversibilidad".
 
+Para él, la entropía era la clave para entender la naturaleza del equilibrio y la radiación.
 
-(Pilar de la mecánica estadística moderna.)
+---
 
-4. Max Planck (1900–1910)
+## 5. Peter Atkins (2014)
+Atkins modernizó el concepto para facilitar su comprensión en química física.
 
-La entropía es una función que determina la dirección natural de los procesos físicos y cuya variación caracteriza la irreversibilidad.
+**Definición:**
+> "La entropía es una medida de la dispersión de la energía y del modo en que se distribuye en un sistema".
 
-Planck reforzó la idea de que la entropía siempre aumenta en procesos reales.
+**Aporte clave:**  
+Sustituye el concepto tradicional de “desorden” por **dispersión de energía**, evitando interpretaciones ambiguas.
 
-5. Peter Atkins (Química Física, 2014)
+---
 
-La entropía es una medida de la dispersión de la energía y de la extensión en que está difundida en un sistema.
+## 6. P. W. Bridgman (1961)
+Bridgman, premio Nobel, enfatizó el carácter experimental y operacional.
 
-Atkins reemplaza el clásico concepto de “desorden” por dispersión de energía.
+**Definición:**
+> "La entropía es una medida de la irreversibilidad de un proceso y del desgaste energético inevitable que limita el trabajo útil".
 
-6. P. W. Bridgman (1961)
+Describe la entropía en términos de la imposibilidad práctica de revertir un proceso real.
 
-La entropía es una medida de la irreversibilidad de un proceso y del desgaste energético que hace imposible recuperar completamente la energía en forma de trabajo.
+---
 
-7. Herbert Callen (1985)
+## 7. Herbert Callen (1985)
+Callen ofreció una formulación matemática rigurosa de la termodinámica.
 
-La entropía es la función que ordena la estructura de equilibrio de los sistemas físicos y determina la dirección de los procesos espontáneos.
+**Definición:**
+> "La entropía es la función que establece la estructura de equilibrio de la termodinámica y determina la dirección de la evolución espontánea".
 
-Define la entropía como la función fundamental del equilibrio.
+Para Callen, la entropía es la **función fundamental del equilibrio**.
 
-8. Smith, Van Ness y Abbott (Termodinámica Química, 2005)
+---
 
-La entropía es una propiedad asociada al grado de dispersión de la energía y al número de formas en que un sistema puede organizarse al nivel molecular.
+## 8. Smith, Van Ness y Abbott (Termodinámica Química, 2005)
+Autores clave para ingeniería química.
 
-9. Çengel y Boles (Termodinámica de Ingeniería, 2015)
+**Definición:**
+> "La entropía es una propiedad que describe el grado de dispersión de la energía y el número de configuraciones moleculares accesibles".
 
-La entropía es una medida cuantitativa del desorden molecular o aleatoriedad, y del grado de irreversibilidad asociado a un proceso.
+Integra el enfoque energético y estadístico en una sola definición.
 
-10. Ilya Prigogine (Premio Nobel, 1977)
+---
 
-La entropía es la magnitud que describe la evolución de los sistemas alejados del equilibrio y su tendencia natural a producir irreversibilidades internas.
+## 9. Çengel y Boles (Ingeniería, 2015)
+Muy usado en ingeniería mecánica y química.
 
-11. Clausius + Interpretación moderna (resumen unificado)
+**Definición:**
+> "La entropía es una medida cuantitativa del desorden molecular y del grado de irreversibilidad asociado a un proceso".
 
-La entropía mide la parte de la energía que ya no puede transformarse en trabajo útil y también mide el grado de desorden o dispersión de la energía en un sistema.
+Destaca la conexión entre entropía, aleatoriedad molecular e irreversibilidad.
 
+---
 
+## 10. Ilya Prigogine (Sistemas alejados del equilibrio)
+Premio Nobel por estudios sobre termodinámica del no equilibrio.
 
+**Definición:**
+> "La entropía describe la producción de irreversibilidad en sistemas alejados del equilibrio y su tendencia natural hacia nuevas estructuras o estados".
+
+Fue pionero en entender cómo sistemas complejos pueden generar orden mientras aumenta la entropía global.
+
+---
