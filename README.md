@@ -8,26 +8,19 @@ Este repositorio contiene una explicación completa, organizada y entendible de 
 - [Segunda Ley de la Termodinámica](segunda_ley.md)
 - [Ejemplos y aplicaciones](ejemplos.md)
 
-## Objetivo del repositorio
-Servir como material académico para comprender:
-- Conservación de energía
-- Transferencia de calor y trabajo
-- Entropía
-- Irreversibilidad
-- Máquinas térmicas y eficiencia
 # Primera Ley de la Termodinámica
 
 La Primera Ley establece que:
 
-**La energía no se crea ni se destruye, solo se transforma.**
+ - La energía no se crea ni se destruye, solo se transforma.
 
 # Definición Histórica de Entropía
 
-La entropía es una función de estado cuya variación se define clásicamente mediante la relación dS =δQrev​​/T, que expresa cómo cambia la entropía cuando un sistema intercambia calor de manera reversible a una temperatura dada. Según la interpretación presentada en el texto, esta magnitud puede entenderse como una medida del grado de dispersión o distribución de la energía en el sistema: cuanto más extensamente puede repartirse la energía entre los distintos estados posibles bajo condiciones macroscópicas fijas, mayor es la entropía. Así, la formulación clásica describe cuantitativamente el cambio de entropía en términos de calor reversible, mientras que su significado físico se relaciona con la tendencia natural de la energía a difundirse dentro del sistema.
+La entropía es una función de estado cuya variación se define clásicamente mediante la relación dS = δQrev​​/T, que expresa cómo cambia la entropía cuando un sistema intercambia calor de manera reversible a una temperatura dada. Según la interpretación presentada en el texto, esta magnitud puede entenderse como una medida del grado de dispersión o distribución de la energía en el sistema: cuanto más extensamente puede repartirse la energía entre los distintos estados posibles bajo condiciones macroscópicas fijas, mayor es la entropía. Así, la formulación clásica describe cuantitativamente el cambio de entropía en términos de calor reversible, mientras que su significado físico se relaciona con la tendencia natural de la energía a difundirse dentro del sistema.
 
 ## Clausius definio la entropía como:
 
-                                                                 dS =δQrev​​/T
+                                                                 dS = δQrev​​/T
 
 Clausius introdujo por primera vez la palabra entropía, para describir una magnitud de estado asociada al calor, donde:
 
@@ -85,6 +78,34 @@ Representa la dispersión de energía térmica hacia estados menos concentrados 
 1. https://espanol.libretexts.org/Bookshelves/Quimica/Qu%C3%ADmica_General/Libro%3A_Chem1_%28Inferior%29/15%3A_Termodin%C3%A1mica_de_Equilibrios_Qu%C3%ADmicos/15.03%3A_La_Segunda_Ley_de_la_Termodin%C3%A1mica
 2. https://www.britannica.com/science/entropy-physics
 
+   # Boltzmann y la entropía
+Fue el físico austriaco Ludwig Boltzmann quien dio con la explicación microscópica de la entropía y su crecimiento.
+
+Una vez que se acepta la hipótesis atómica (y esto es importante, pues no todos la aceptaban para cuando Boltzmann publicó sus trabajos) se puede formalizar la idea de que en su evolución, los sistemas tienden al desorden.
+
+De hecho, la relación entropía-desorden no es tan clara. Por ejemplo, si agitamos una mezcla de agua y aceite, obtenemos un batiburrillo de burbujas de aceite dentro del agua que tildaríamos de desordenado. Y aun así, el aceite y el agua se segregan ellos solitos en dos capas diferenciadas, que al ojo inocente le parecen más ordenadas. Pero realmente aquí se ha respetado la segunda ley, y ha habido un aumento de entropía. De igual forma, si comenzamos con una nube de partículas en el espacio que se atraen gravitacionalmente, podemos acabar formando estrellas, planetas, agujeros negros… De nuevo, estos sistemas, aunque parezcan más ordenados, tienen más entropía que el sistema inicial.
+
+Pero volvamos a Boltzmann y su explicación de la entropía. Como pone en su lápida, Boltzmann definió la entropía como:
+
+                                                        S = k \ ln W
+
+donde k es una constante (la constante de Boltzmann, que por cierto la introdujo Max Planck) que ajusta las unidades, \ln es el logaritmo neperiano y W es el número de maneras en las que podemos reorganizar microscópicamente el sistema sin que nada cambie macroscópicamente.
+
+# Microestados
+*¿Por qué tiene sentido que esta sea la definición microscópica de la entropía?*
+
+Pensemos en un gas. Supongamos que parte de un cierto volumen chiquitín en la esquina de una habitación.
+
+Recuerda que en los gases lo que tenemos es un montón de moléculas con un movimiento aleatorio, que van rebotando unas con otras. Es lógico que, en su evolución, acaben por esparcirse por toda la habitación, pues choque a choque, es mucho más probable que las moléculas salgan despedidas en direcciones que hagan que se dispersen a que todas se conjuren para seguir chocando en un espacio reducido.
+
+*¿Por qué es más probable? Pues aquí es cuando entra el concepto de microestado.*
+
+Un microestado es una especificación de las posiciones y velocidades de las partículas que componen un sistema dado. Es decir, para un gas, deberíamos dar por cada molécula su vector posición (3 datos) y su vector velocidad (3 datos), reuniendo una colección de 6N datos si tenemos N moléculas.
+
+# Referencias:
+1. https://fisicatabu.com/el-origen-microscopico-de-la-entropia/
+2. https://m.youtube.com/watch?v=SGl8lE6qp2g&pp=4gcNEgtjaGF0Z3B0LmNvbQ%3D%3D
+
 ## Definiciones alternativas y modernas de entropía
 ---
 ### Entropía como propiedad de la termodinámica 
@@ -95,7 +116,7 @@ La entropía se define como la medida de la dispersión de la energía en un sis
 
 La entropía física, en su forma clásica, es definida por la ecuación propuesta por Rudolf Clausius:
 
-*dS=dQ/T*
+                                                         *dS=dQ/T*
 
 Esta es una magnitud termodinámica definida originalmente como criterio para predecir la evolución de los sistemas termodinámicos. En todo proceso irreversible, el desorden del sistema aumenta y por lo tanto, la entropía aumenta. Si el proceso es reversible, la variación de entropía es nula.
 
@@ -165,11 +186,11 @@ Sin embargo, a medida que los sistemas crecen y varían en tamaño, su entrelaza
 
 Para calcular la entropía de entrelazamiento, primero se calcula la matriz densidad reducida para uno de los subsistemas, digamos A:
 
-*ρA=TrB(|ψAB⟩⟨ψAB|)*
+                                                            *ρA=TrB(|ψAB⟩⟨ψAB|)*
 
 Luego, se computa la entropía de von Neumann de ρA:
 
-*SA=–Tr(ρAlogρA)*
+                                                             *SA=–Tr(ρAlogρA)*
 
 Esta cantidad, SA, es la entropía de entrelazamiento del sistema conjunto AB. En sistemas bipartitos puramente entrelazados, la entropía de entrelazamiento es máxima, indicando una fuerte correlación cuántica.
 
@@ -177,7 +198,7 @@ Esta cantidad, SA, es la entropía de entrelazamiento del sistema conjunto AB. E
 
 - Un ejemplo clásico de un estado entrelazado es el estado de Bell, que es una superposición de dos estados cuánticos base:
 
-  *|ψAB⟩=12–√(|00⟩+|11⟩)*
+                                                           *|ψAB⟩=12–√(|00⟩+|11⟩)*
 
   En este caso, si se efectúa una medida en uno de los subsistemas, el estado del otro subsistema queda instantáneamente determinado, mostrando una correlación perfecta entre A y B.
 
@@ -202,7 +223,7 @@ La Segunda Ley introduce el concepto de **entropía** y establece la dirección 
 
 # Definiciones de Entropía según diferentes autores
 
-La entropía es uno de los conceptos más importantes y complejos de la termodinámica. A lo largo de la historia, diferentes autores la han definido según el enfoque teórico utilizado: termodinámico clásico, estadístico, físico-químico o ingenieril. A continuación se presentan las principales definiciones, ampliadas y ordenadas cronológicamente.
+La entropía es uno de los conceptos más importantes y complejos de la termodinámica. A lo largo de la historia, diferentes autores la han definido según el enfoque teórico utilizado: termodinámico clásico, estadístico, físico-químico o ingenieril. 
 
 ---
 
@@ -415,26 +436,7 @@ Es siempre opuesta al cambio de entropía del sistema porque el calor ganado por
 
 ---
 
-# 4. Ejemplo: Fusión del hielo
-
-**Sistema:** hielo que se derrite.  
-**Entorno:** ambiente.
-
-1. El sistema (hielo) **absorbe calor**:  
-   \[
-   \Delta S_{\text{sistema}} > 0
-   \]
-
-2. El entorno **pierde calor**:  
-   \[
-   \Delta S_{\text{entorno}} < 0
-   \]
-
-3. El aumento del sistema es mayor que la disminución del entorno:  
-   \[
-   \Delta S_{\text{universo}} > 0
-   \]
-
-**Resultado:** el proceso es espontáneo.
-
----
+**Referencias:** 
+1. https://www.rasc.es/blogacademia/?p=24240
+2. https://onlinelibrary.wiley.com/doi/10.1155/2020/8769060
+3. https://www.fisicalab.com/apartado/segundo-principio-termo
