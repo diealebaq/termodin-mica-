@@ -4,9 +4,9 @@ Este repositorio contiene una explicación completa, organizada y entendible de 
 
 ## Contenido del proyecto
 
-- [Primera Ley de la Termodinámica](primera_ley.md)
-- [Segunda Ley de la Termodinámica](segunda_ley.md)
-- [Ejemplos y aplicaciones](ejemplos.md)
+- Primera Ley de la Termodinámica.
+- Segunda Ley de la Termodinámica.
+- Ejemplos y aplicaciones.
 
 # Primera Ley de la Termodinámica
 
