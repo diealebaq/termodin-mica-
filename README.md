@@ -56,7 +56,7 @@ Boltzmann dio a la entropía una interpretación estadística profunda.
 **Definición:**
 > "La entropía es una medida del número de microestados accesibles por un sistema".
 
-                                                      𝑆=𝑘ln⁡Ω
+                                                         𝑆=𝑘ln⁡Ω
 
 Donde:
 - \( \Omega \) es el número de microestados compatibles con un macroestado,
@@ -73,7 +73,7 @@ Gibbs extendió y generalizó la definición estadística de la entropía.
 **Definición:**
 > "La entropía es una función que depende de la probabilidad de los microestados y mide la distribución de energía en un sistema".
 
-                                                       𝑆=−𝑘∑𝑝𝑖ln𝑝𝑖
+                                                        𝑆=−𝑘∑𝑝𝑖ln𝑝𝑖
 													   
 Es fundamental para describir sistemas con microestados no equiprobables.
 
@@ -147,5 +147,120 @@ Premio Nobel por estudios sobre termodinámica del no equilibrio.
 > "La entropía describe la producción de irreversibilidad en sistemas alejados del equilibrio y su tendencia natural hacia nuevas estructuras o estados".
 
 Fue pionero en entender cómo sistemas complejos pueden generar orden mientras aumenta la entropía global.
+
+---
+# Entropía del Universo, del Sistema y del Entorno
+
+La entropía es una propiedad termodinámica fundamental para entender la dirección natural de los procesos y la irreversibilidad. Para analizar un fenómeno se divide el universo en dos partes:
+
+- **Sistema:** la porción del universo que se estudia.
+- **Entorno (o alrededores):** todo lo que rodea al sistema.
+
+La suma de ambos constituye el **universo termodinámico**.
+
+---
+
+# 1. Entropía del Universo
+
+La entropía total del universo se define como la suma de la entropía del sistema y la del entorno:
+
+
+                                             ΔS universo = ΔS sistema + ΔS entorno
+
+De acuerdo con la **segunda ley de la termodinámica**:
+
+- **Procesos espontáneos:**
+   
+                                                     ΔS universo > 0
+
+- **Procesos reversibles:**
+  
+                                                     ΔS universo = 0
+
+- **Procesos imposibles físicamente:**
+  
+                                                     ΔS universo < 0
+
+
+### Interpretación:
+La entropía del universo mide la **irreversibilidad global**.  
+Toda fricción, resistencia, mezcla, disipación de calor o turbulencia incrementa la entropía del universo.
+
+Por eso afirmamos que:
+
+> **La entropía del universo siempre aumenta para cualquier proceso real.**
+
+---
+
+# 2. Entropía del Sistema
+
+El sistema es la parte que se analiza: un gas, una sustancia, una reacción química, un motor, etc.
+
+La entropía del sistema varía según los cambios internos de energía y el estado termodinámico.
+
+### Para procesos reversibles:
+
+                                                      dS sistema = δQrev/T
+
+### Para cambios de estado a temperatura constante:
+
+                                                      dS sistema = Qrev/T
+
+### Propiedades importantes:
+
+- El sistema **puede ganar o perder entropía**.
+- La entropía del sistema **no determina la espontaneidad** por sí sola.
+- Depende del estado interno, del volumen, temperatura y microestados accesibles.
+
+### Interpretación:
+La entropía del sistema mide:
+
+- El **grado de dispersión** de la energía interna.  
+- El **número de configuraciones microscópicas** posibles.  
+- El **nivel de desorden molecular**.
+
+---
+
+# 3. Entropía del Entorno (o Alrededores)
+
+En la mayoría de análisis, el entorno se modela como un **reservorio térmico** grande cuya temperatura no cambia.
+
+Si el sistema intercambia calor Q con el entorno:
+
+### Si el sistema recibe calor:
+
+                                                        S = -Q / T entorno
+
+### Si el sistema pierde calor:
+
+                                                        S = +Q / T entorno
+
+### Interpretación:
+La entropía del entorno representa cómo afecta el proceso al resto del universo.  
+Es siempre opuesta al cambio de entropía del sistema porque el calor ganado por uno es perdido por el otro.
+
+---
+
+# 4. Ejemplo: Fusión del hielo
+
+**Sistema:** hielo que se derrite.  
+**Entorno:** ambiente.
+
+1. El sistema (hielo) **absorbe calor**:  
+   \[
+   \Delta S_{\text{sistema}} > 0
+   \]
+
+2. El entorno **pierde calor**:  
+   \[
+   \Delta S_{\text{entorno}} < 0
+   \]
+
+3. El aumento del sistema es mayor que la disminución del entorno:  
+   \[
+   \Delta S_{\text{universo}} > 0
+   \]
+
+**Resultado:** el proceso es espontáneo.
 
 ---
