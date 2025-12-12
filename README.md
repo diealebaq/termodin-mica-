@@ -1,6 +1,6 @@
 # Proyecto: Primera y Segunda Ley de la Termodinámica
 
-Este repositorio contiene una explicación completa, organizada y entendible de las dos leyes fundamentales de la termodinámica.
+Este repositorio contiene una explicación completa, organizada y entendible de las dos leyes esenciales de la termodinámica, ampliando conceptos fundamentales, como los microestados, aportes de diversos pensadores, fórmulas y la historia detrás de estos principios, fundamentales para entender muchos comportamientos de la materia.
 
 ## Contenido del proyecto
 
@@ -12,7 +12,8 @@ Este repositorio contiene una explicación completa, organizada y entendible de 
 
 La Primera Ley establece que:
 
- - La energía no se crea ni se destruye, solo se transforma.
+ - La energía no se crea ni se destruye, solo se transforma. Esta verdad universal, conocida como primera ley de la termodinámica, puede resumirse en una sencilla afirmación: "La energía se conserva". Cualquier energía perdida por el sistema deberá ser ganada por el entorno y viceversa.
+
 
 # Definición Histórica de Entropía
 
