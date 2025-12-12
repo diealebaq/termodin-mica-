@@ -116,7 +116,7 @@ La entropía se define como la medida de la dispersión de la energía en un sis
 
 La entropía física, en su forma clásica, es definida por la ecuación propuesta por Rudolf Clausius:
 
-                                                         *dS=dQ/T*
+                                                         dS = dQ / T
 
 Esta es una magnitud termodinámica definida originalmente como criterio para predecir la evolución de los sistemas termodinámicos. En todo proceso irreversible, el desorden del sistema aumenta y por lo tanto, la entropía aumenta. Si el proceso es reversible, la variación de entropía es nula.
 
@@ -186,11 +186,11 @@ Sin embargo, a medida que los sistemas crecen y varían en tamaño, su entrelaza
 
 Para calcular la entropía de entrelazamiento, primero se calcula la matriz densidad reducida para uno de los subsistemas, digamos A:
 
-                                                            *ρA=TrB(|ψAB⟩⟨ψAB|)*
+                                                            ρA=TrB(|ψAB⟩⟨ψAB|)
 
 Luego, se computa la entropía de von Neumann de ρA:
 
-                                                             *SA=–Tr(ρAlogρA)*
+                                                             SA=–Tr(ρAlogρA)
 
 Esta cantidad, SA, es la entropía de entrelazamiento del sistema conjunto AB. En sistemas bipartitos puramente entrelazados, la entropía de entrelazamiento es máxima, indicando una fuerte correlación cuántica.
 
@@ -198,7 +198,7 @@ Esta cantidad, SA, es la entropía de entrelazamiento del sistema conjunto AB. E
 
 - Un ejemplo clásico de un estado entrelazado es el estado de Bell, que es una superposición de dos estados cuánticos base:
 
-                                                           *|ψAB⟩=12–√(|00⟩+|11⟩)*
+                                                           |ψAB⟩=12–√(|00⟩+|11⟩)
 
   En este caso, si se efectúa una medida en uno de los subsistemas, el estado del otro subsistema queda instantáneamente determinado, mostrando una correlación perfecta entre A y B.
 
@@ -212,9 +212,7 @@ Esta cantidad, SA, es la entropía de entrelazamiento del sistema conjunto AB. E
 **Referencias:** 
 
 1. https://modern-physics.org/entropia-de-entrelazamiento-vision-general-y-significado/ 
-
-2. https://modern-physics.org/entropia-de-entrelazamiento-vision-general-y-significado/
-   
+  
 ---
 
 # Segunda Ley de la Termodinámica
